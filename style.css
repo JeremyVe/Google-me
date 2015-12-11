@@ -1,0 +1,126 @@
+body {
+	font-family: Helvetica, sans-serif;
+	max-width: 100%;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/*================================
+Top nav
+=================================*/
+
+.navbar {
+	height: 14px;
+	line-height: 14px;
+	padding-top: 10px;
+}
+
+.navbar img {
+	width: 30px;
+	vertical-align: middle;
+
+}
+
+.navbar ul {
+	list-style: none;
+	float: right;
+}
+
+.navbar li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+a{
+	color: #777;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.navbar li:last-child {
+	margin-right: 30px;
+	background: purple;
+	padding: 10px 14px;
+	border-radius: 50%;
+}
+
+.navbar li:last-child a {
+	color: white;
+}
+
+
+
+
+/*================================
+Center
+=================================*/
+
+
+.logo {
+	display: block;
+	margin: 160px auto 0;
+	width: 272px;
+}
+
+.search-container .search-bar {
+	display: block;
+	font-size: 18px;
+	margin: 30px auto;
+	padding: 10px 10px;
+	width: 550px;
+	border: 1px solid #ddd;
+}
+
+.button-container {
+	margin: 10px auto;
+	width: 400px;
+}
+
+.search-button {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	background: #eee;
+	color: #777;
+	border: 0;
+	padding: 10px 10px;
+	width: 38%;
+	margin: 2px 5%;
+}
+
+/*================================
+Top nav
+=================================*/
+
+.footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	padding: 10px 0 20px;
+	border-top: 1px solid #ddd;
+	background: #eee;
+}
+
+.footer li {
+	list-style: none;
+	float: left;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.footer-right {
+	float: right;
+}
+
+
+
+
+
+
+
+
+
